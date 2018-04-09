@@ -1,0 +1,88 @@
+{"level":"verbose","message":"register-POST called ","timestamp":"16:10:19"}
+{"level":"info","message":"in routes /register - Req Data : [object Object]","timestamp":"16:10:19"}
+{"level":"info","message":"RegistrationController.register called  :aqeel@gmail.com","timestamp":"16:10:19"}
+{"level":"info","message":"UserExists Method Called","timestamp":"16:10:19"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"16:10:19"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"16:10:19"}
+{"level":"info","message":"User Not Found with Email :aqeel@gmail.com","timestamp":"16:10:20"}
+{"level":"info","message":"User Exists Response : null","timestamp":"16:10:20"}
+{"level":"info","message":"Creation New User","timestamp":"16:10:20"}
+{"level":"verbose","message":"login-POST called ","timestamp":"16:12:52"}
+{"level":"info","message":"in routes /login - Req Data : [object Object]","timestamp":"16:12:52"}
+{"level":"info","message":"RegistrationController.login called  :undefined","timestamp":"16:12:52"}
+{"level":"info","message":"UserExists Method Called","timestamp":"16:12:52"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"16:12:52"}
+{"level":"info","message":" End RegistrationController.login Method","timestamp":"16:12:52"}
+{"level":"info","message":"User Not Found with Email :undefined","timestamp":"16:12:52"}
+{"level":"info","message":"User Exists Response : null","timestamp":"16:12:52"}
+{"level":"verbose","message":"register-POST called ","timestamp":"16:13:31"}
+{"level":"info","message":"in routes /register - Req Data : [object Object]","timestamp":"16:13:31"}
+{"level":"info","message":"RegistrationController.register called  :aqeel@gmail.com","timestamp":"16:13:31"}
+{"level":"info","message":"UserExists Method Called","timestamp":"16:13:31"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"16:13:31"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"16:13:31"}
+{"level":"info","message":"User Not Found with Email :aqeel@gmail.com","timestamp":"16:13:31"}
+{"level":"info","message":"User Exists Response : null","timestamp":"16:13:31"}
+{"level":"info","message":"Creation New User","timestamp":"16:13:31"}
+{"level":"verbose","message":"login-POST called ","timestamp":"16:13:37"}
+{"level":"info","message":"in routes /login - Req Data : [object Object]","timestamp":"16:13:37"}
+{"level":"info","message":"RegistrationController.login called  :undefined","timestamp":"16:13:37"}
+{"level":"info","message":"UserExists Method Called","timestamp":"16:13:37"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"16:13:37"}
+{"level":"info","message":" End RegistrationController.login Method","timestamp":"16:13:37"}
+{"level":"info","message":"User Not Found with Email :undefined","timestamp":"16:13:37"}
+{"level":"info","message":"User Exists Response : null","timestamp":"16:13:37"}
+{"level":"verbose","message":"login-POST called ","timestamp":"16:22:57"}
+{"level":"info","message":"in routes /login - Req Data : [object Object]","timestamp":"16:22:57"}
+{"level":"info","message":"RegistrationController.login called  :aqeel@gmail.com","timestamp":"16:22:57"}
+{"level":"info","message":"UserExists Method Called","timestamp":"16:22:57"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"16:22:57"}
+{"level":"info","message":" End RegistrationController.login Method","timestamp":"16:22:57"}
+{"level":"info","message":"User Found with Email :aqeel@gmail.com","timestamp":"16:22:58"}
+{"level":"info","message":"User Exists Response : { _id: 5acb4adbc15a6e1d24f4f927,\n  updatedAt: 2018-04-09T11:13:31.677Z,\n  createdAt: 2018-04-09T11:13:31.310Z,\n  email: 'aqeel@gmail.com',\n  password: '$2a$10$MNbaA4oJvAwRYSim108F2.lrMDXS0qlXYLncvyxv2Q6mSLTi6Wn7.',\n  user_type: 'driver',\n  OS: 'android',\n  verified_user: true,\n  __v: 1,\n  deactivate_user: false,\n  tokens: \n   [ { access: 'auth',\n       token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWNiNGFkYmMxNWE2ZTFkMjRmNGY5MjciLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIzMjcyNDExfQ.KTzndWTlRncoTs7FoROOMd8qF567NVzSuXqIa9sSXrU',\n       _id: 5acb4adbc15a6e1d24f4f929 } ],\n  profile_photo_url: null }","timestamp":"16:22:58"}
+{"level":"verbose","message":"register-POST called ","timestamp":"16:26:46"}
+{"level":"info","message":"in routes /register - Req Data : [object Object]","timestamp":"16:26:46"}
+{"level":"info","message":"RegistrationController.register called  :aqeel@gmail.com","timestamp":"16:26:46"}
+{"level":"info","message":"UserExists Method Called","timestamp":"16:26:46"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"16:26:46"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"16:26:46"}
+{"level":"info","message":"User Not Found with Email :aqeel@gmail.com","timestamp":"16:26:46"}
+{"level":"info","message":"User Exists Response : null","timestamp":"16:26:46"}
+{"level":"info","message":"Creation New User","timestamp":"16:26:46"}
+{"level":"verbose","message":"register-POST called ","timestamp":"16:27:52"}
+{"level":"info","message":"in routes /register - Req Data : [object Object]","timestamp":"16:27:52"}
+{"level":"info","message":"RegistrationController.register called  :saif@gmail.com","timestamp":"16:27:52"}
+{"level":"info","message":"UserExists Method Called","timestamp":"16:27:52"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"16:27:52"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"16:27:52"}
+{"level":"info","message":"User Not Found with Email :saif@gmail.com","timestamp":"16:27:52"}
+{"level":"info","message":"User Exists Response : null","timestamp":"16:27:52"}
+{"level":"info","message":"Creation New User","timestamp":"16:27:52"}
+{"message":"Error in saving User: ","stack":"ReferenceError: Mentor is not defined\n    at newuser.save.then (E:\\EXAGIC\\Exaride-WebServices\\controller\\RegistrationController.js:120:25)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","level":"info","timestamp":"16:27:53"}
+{"level":"verbose","message":"register-POST called ","timestamp":"16:28:08"}
+{"level":"info","message":"in routes /register - Req Data : [object Object]","timestamp":"16:28:08"}
+{"level":"info","message":"RegistrationController.register called  :saif@gmail.com","timestamp":"16:28:08"}
+{"level":"info","message":"UserExists Method Called","timestamp":"16:28:08"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"16:28:08"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"16:28:08"}
+{"level":"info","message":"User Found with Email :saif@gmail.com","timestamp":"16:28:09"}
+{"level":"info","message":"User Exists Response : { _id: 5acb4e387061592a8c104196,\n  updatedAt: 2018-04-09T11:27:52.812Z,\n  createdAt: 2018-04-09T11:27:52.812Z,\n  email: 'saif@gmail.com',\n  password: '$2a$10$dBKWIPM866PmOeiENVl8muC1BCkvaK6X4FBghWSetlV2Th3/yRHfe',\n  user_type: 'rider',\n  OS: 'android',\n  verified_user: true,\n  __v: 0,\n  deactivate_user: false,\n  tokens: [],\n  profile_photo_url: null }","timestamp":"16:28:09"}
+{"level":"verbose","message":"register-POST called ","timestamp":"16:28:42"}
+{"level":"info","message":"in routes /register - Req Data : [object Object]","timestamp":"16:28:42"}
+{"level":"info","message":"RegistrationController.register called  :saif@gmail.com","timestamp":"16:28:42"}
+{"level":"info","message":"UserExists Method Called","timestamp":"16:28:42"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"16:28:42"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"16:28:42"}
+{"level":"info","message":"User Not Found with Email :saif@gmail.com","timestamp":"16:28:42"}
+{"level":"info","message":"User Exists Response : null","timestamp":"16:28:42"}
+{"level":"info","message":"Creation New User","timestamp":"16:28:42"}
+{"message":"Error in saving User: ","stack":"ReferenceError: Mentor is not defined\n    at newuser.save.then (E:\\EXAGIC\\Exaride-WebServices\\controller\\RegistrationController.js:120:25)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","level":"info","timestamp":"16:28:42"}
+{"level":"verbose","message":"register-POST called ","timestamp":"16:31:47"}
+{"level":"info","message":"in routes /register - Req Data : [object Object]","timestamp":"16:31:47"}
+{"level":"info","message":"RegistrationController.register called  :saif@gmail.com","timestamp":"16:31:47"}
+{"level":"info","message":"UserExists Method Called","timestamp":"16:31:47"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"16:31:47"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"16:31:47"}
+{"level":"info","message":"User Not Found with Email :saif@gmail.com","timestamp":"16:31:47"}
+{"level":"info","message":"User Exists Response : null","timestamp":"16:31:47"}
+{"level":"info","message":"Creation New User","timestamp":"16:31:47"}
