@@ -78,7 +78,7 @@ exports.register=function(reqData,res){
     var newRider;
     var userResponseObject;
 
-    if (userType!==undefined&&password!==undefined&&email!==undefined){
+    if (userType!==undefined && password!==undefined && email!==undefined){
         userType=userType.toLowerCase();
         userExists(email,function(userExist){
             logger.info('User Exists Response : ' + userExist );
@@ -86,12 +86,12 @@ exports.register=function(reqData,res){
                 logger.info("Creation New User");
                         
                     newuser = new User({  
-                    email: email,
-                    password:password,
-                    user_type:userType,
-                    OS:os,
-                    verified_user:true                          
-                });
+                        email: email,
+                        password:password,
+                        user_type:userType,
+                        OS:os,
+                        verified_user:true                          
+                    });
                     
 
                 newuser.save().then((user) => {
