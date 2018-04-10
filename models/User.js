@@ -13,7 +13,7 @@ const bcrypt = require('bcryptjs');
 var UserSchema = new Schema({
   
    // username: { type: String, required: true, unique: true },
-      user_name: String, 
+      userName: String, 
       //phone: String,
       full_name: String,
       profile_photo_url:{type:String,default:null },

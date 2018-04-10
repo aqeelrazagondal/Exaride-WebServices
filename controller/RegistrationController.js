@@ -68,15 +68,16 @@ exports.register=function(reqData,res){
     // var user = new User(body);    
     logger.info('RegistrationController.register called  :'+ reqData.email );
     
-    var email = reqData.email;
-    var password = reqData.password;
-    var userType = reqData.userType;
-    var os = reqData.os;
-    var newuser;
-    var newSubUser;
-    var newDriver;
-    var newRider;
-    var userResponseObject;
+        var userName = reqData.userName;
+        var email = reqData.email;
+        var password = reqData.password;
+        var userType = reqData.userType;
+        var os = reqData.os;
+        var newuser;
+        var newSubUser;
+        var newDriver;
+        var newRider;
+        var userResponseObject;
 
     if (userType!==undefined && password!==undefined && email!==undefined){
         userType=userType.toLowerCase();
@@ -85,12 +86,13 @@ exports.register=function(reqData,res){
             if (userExist===null){
                 logger.info("Creation New User");
                         
-                    newuser = new User({  
+                    newuser = new User({
+                        userName: userName,  
                         email: email,
-                        password:password,
-                        user_type:userType,
+                        password: password,
+                        user_type: userType,
                         OS:os,
-                        verified_user:true                          
+                        verified_user: true                          
                     });
                     
 
@@ -98,9 +100,10 @@ exports.register=function(reqData,res){
                 
                     console.log("User : "+ user);
                     userResponseObject={
-                        "_id":user._id,
-                        "email":user.email,
-                        "userType":user.user_type,
+                        "userName": user.userName,
+                        "_id": user._id,
+                        "email": user.email,
+                        "userType": user.user_type,
                         
                     };
                  

@@ -1,0 +1,166 @@
+{"level":"verbose","message":"addLocation-POST Route called","timestamp":"12:10:48"}
+{"level":"info","message":"in Routes /addLocation - Req Data : [object Object]","timestamp":"12:10:48"}
+{"level":"info","message":"ShiftController. called  :","timestamp":"12:10:48"}
+{"level":"verbose","message":"addLocation-POST Route called","timestamp":"12:11:58"}
+{"level":"info","message":"in Routes /addLocation - Req Data : [object Object]","timestamp":"12:11:58"}
+{"level":"info","message":"ShiftController. called  :","timestamp":"12:11:58"}
+{"level":"verbose","message":"addLocation-POST Route called","timestamp":"12:17:57"}
+{"level":"info","message":"in Routes /addLocation - Req Data : [object Object]","timestamp":"12:17:57"}
+{"level":"info","message":"ShiftController. called  :","timestamp":"12:17:57"}
+{"level":"verbose","message":"addLocation-POST Route called","timestamp":"12:22:32"}
+{"level":"info","message":"in Routes /addLocation - Req Data : [object Object]","timestamp":"12:22:32"}
+{"level":"info","message":"ShiftController. called  :","timestamp":"12:22:32"}
+{"level":"verbose","message":"addLocation-POST Route called","timestamp":"12:23:47"}
+{"level":"info","message":"in Routes /addLocation - Req Data : [object Object]","timestamp":"12:23:47"}
+{"level":"info","message":"ShiftController. called  :","timestamp":"12:23:47"}
+{"level":"verbose","message":"addRoute-POST Route called","timestamp":"12:34:40"}
+{"level":"info","message":"in Routes /addRoute - Req Data : [object Object]","timestamp":"12:34:40"}
+{"level":"verbose","message":"addRoute-POST Route called","timestamp":"12:37:02"}
+{"level":"info","message":"in Routes /addRoute - Req Data : [object Object]","timestamp":"12:37:02"}
+{"level":"info","message":"ShiftController. called  :","timestamp":"12:37:02"}
+{"level":"verbose","message":"addRoute-POST Route called","timestamp":"12:38:31"}
+{"level":"info","message":"in Routes /addRoute - Req Data : [object Object]","timestamp":"12:38:31"}
+{"level":"info","message":"ShiftController. called  :","timestamp":"12:38:31"}
+{"level":"verbose","message":"addRoute-POST Route called","timestamp":"12:38:42"}
+{"level":"info","message":"in Routes /addRoute - Req Data : [object Object]","timestamp":"12:38:42"}
+{"level":"info","message":"ShiftController. called  :","timestamp":"12:38:42"}
+{"level":"verbose","message":"addRoute-POST Route called","timestamp":"12:40:22"}
+{"level":"info","message":"in Routes /addRoute - Req Data : [object Object]","timestamp":"12:40:22"}
+{"level":"info","message":"ShiftController. called  :","timestamp":"12:40:22"}
+{"level":"verbose","message":"addRoute-POST Route called","timestamp":"12:46:32"}
+{"level":"info","message":"in Routes /addRoute - Req Data : [object Object]","timestamp":"12:46:32"}
+{"level":"info","message":"ShiftController. called  :","timestamp":"12:46:32"}
+{"level":"verbose","message":"addRoute-POST Route called","timestamp":"12:54:54"}
+{"level":"info","message":"in Routes /addRoute - Req Data : [object Object]","timestamp":"12:54:54"}
+{"level":"info","message":"ShiftController. called  :","timestamp":"12:54:54"}
+{"level":"verbose","message":"addRoute-POST Route called","timestamp":"12:56:02"}
+{"level":"info","message":"in Routes /addRoute - Req Data : [object Object]","timestamp":"12:56:02"}
+{"level":"info","message":"ShiftController. called  :","timestamp":"12:56:02"}
+{"level":"verbose","message":"addRoute-POST Route called","timestamp":"12:56:56"}
+{"level":"info","message":"in Routes /addRoute - Req Data : [object Object]","timestamp":"12:56:56"}
+{"level":"info","message":"ShiftController. called  :","timestamp":"12:56:56"}
+{"level":"verbose","message":"addRoute-POST Route called","timestamp":"12:59:23"}
+{"level":"info","message":"in Routes /addRoute - Req Data : [object Object]","timestamp":"12:59:23"}
+{"level":"info","message":"ShiftController. called  :","timestamp":"12:59:23"}
+{"level":"verbose","message":"addRoute-POST Route called","timestamp":"13:05:09"}
+{"level":"info","message":"in Routes /addRoute - Req Data : [object Object]","timestamp":"13:05:09"}
+{"level":"info","message":"ShiftController. called  :","timestamp":"13:05:09"}
+{"level":"verbose","message":"addRoute-POST Route called","timestamp":"13:05:21"}
+{"level":"info","message":"in Routes /addRoute - Req Data : [object Object]","timestamp":"13:05:21"}
+{"level":"info","message":"ShiftController. called  :","timestamp":"13:05:21"}
+{"level":"verbose","message":"addRoute-POST Route called","timestamp":"13:05:31"}
+{"level":"info","message":"in Routes /addRoute - Req Data : [object Object]","timestamp":"13:05:31"}
+{"level":"info","message":"ShiftController. called  :","timestamp":"13:05:31"}
+{"level":"verbose","message":"addRoute-POST Route called","timestamp":"13:08:51"}
+{"level":"info","message":"in Routes /addRoute - Req Data : [object Object]","timestamp":"13:08:51"}
+{"level":"info","message":"ShiftController. called  :","timestamp":"13:08:51"}
+{"level":"verbose","message":"addRoute-POST Route called","timestamp":"13:11:40"}
+{"level":"info","message":"in Routes /addRoute - Req Data : [object Object]","timestamp":"13:11:40"}
+{"level":"info","message":"ShiftController. called  :","timestamp":"13:11:40"}
+{"level":"verbose","message":"addRoute-POST Route called","timestamp":"13:11:48"}
+{"level":"info","message":"in Routes /addRoute - Req Data : [object Object]","timestamp":"13:11:48"}
+{"level":"info","message":"ShiftController. called  :","timestamp":"13:11:48"}
+{"level":"verbose","message":"addRoute-POST Route called","timestamp":"13:14:31"}
+{"level":"info","message":"in Routes /addRoute - Req Data : [object Object]","timestamp":"13:14:31"}
+{"level":"info","message":"ShiftController. called  :","timestamp":"13:14:31"}
+{"level":"verbose","message":"addRoute-POST Route called","timestamp":"13:15:44"}
+{"level":"info","message":"in Routes /addRoute - Req Data : [object Object]","timestamp":"13:15:44"}
+{"level":"info","message":"ShiftController. called  :","timestamp":"13:15:44"}
+{"level":"verbose","message":"addRoute-POST Route called","timestamp":"13:17:19"}
+{"level":"info","message":"in Routes /addRoute - Req Data : [object Object]","timestamp":"13:17:19"}
+{"level":"info","message":"ShiftController. called  :","timestamp":"13:17:19"}
+{"level":"verbose","message":"addShift-POST Route called","timestamp":"13:45:31"}
+{"level":"info","message":"in Routes /addShift - Req Data : [object Object]","timestamp":"13:45:31"}
+{"level":"verbose","message":"addShift-POST Route called","timestamp":"13:48:09"}
+{"level":"info","message":"in Routes /addShift - Req Data : [object Object]","timestamp":"13:48:09"}
+{"level":"verbose","message":"addShift-POST Route called","timestamp":"13:48:34"}
+{"level":"info","message":"in Routes /addShift - Req Data : [object Object]","timestamp":"13:48:34"}
+{"level":"verbose","message":"addShift-POST Route called","timestamp":"13:50:04"}
+{"level":"info","message":"in Routes /addShift - Req Data : [object Object]","timestamp":"13:50:04"}
+{"level":"verbose","message":"addShift-POST Route called","timestamp":"13:50:33"}
+{"level":"info","message":"in Routes /addShift - Req Data : [object Object]","timestamp":"13:50:33"}
+{"level":"verbose","message":"addShift-POST Route called","timestamp":"13:51:08"}
+{"level":"info","message":"in Routes /addShift - Req Data : [object Object]","timestamp":"13:51:08"}
+{"level":"verbose","message":"addShift-POST Route called","timestamp":"13:52:09"}
+{"level":"info","message":"in Routes /addShift - Req Data : [object Object]","timestamp":"13:52:09"}
+{"level":"verbose","message":"addShift-POST Route called","timestamp":"13:52:34"}
+{"level":"info","message":"in Routes /addShift - Req Data : [object Object]","timestamp":"13:52:34"}
+{"level":"verbose","message":"addShift-POST Route called","timestamp":"13:53:29"}
+{"level":"info","message":"in Routes /addShift - Req Data : [object Object]","timestamp":"13:53:29"}
+{"level":"verbose","message":"register-POST called ","timestamp":"13:56:34"}
+{"level":"info","message":"in routes /register - Req Data : [object Object]","timestamp":"13:56:34"}
+{"level":"info","message":"RegistrationController.register called  :saif@gmail.com","timestamp":"13:56:34"}
+{"level":"info","message":"UserExists Method Called","timestamp":"13:56:34"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"13:56:34"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"13:56:34"}
+{"level":"info","message":"User Found with Email :saif@gmail.com","timestamp":"13:56:34"}
+{"level":"info","message":"User Exists Response : { _id: 5acb4f232f02e726bc9d1cdb,\n  updatedAt: 2018-04-09T11:31:48.190Z,\n  createdAt: 2018-04-09T11:31:47.773Z,\n  email: 'saif@gmail.com',\n  password: '$2a$10$oNuWwF/9UpcxrShU7UMh/.XWl5Bh8YCoaZJDo8E4yvoUAL2Ni18Q.',\n  user_type: 'rider',\n  OS: 'android',\n  verified_user: true,\n  __v: 1,\n  deactivate_user: false,\n  tokens: \n   [ { access: 'auth',\n       token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWNiNGYyMzJmMDJlNzI2YmM5ZDFjZGIiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIzMjczNTA4fQ.mXIInfoQXrSfcJW9d7fqBsDKFg2IgJ9tkpXLU8CrAY0',\n       _id: 5acb4f242f02e726bc9d1cdd } ],\n  profile_photo_url: null }","timestamp":"13:56:34"}
+{"level":"verbose","message":"register-POST called ","timestamp":"13:56:55"}
+{"level":"info","message":"in routes /register - Req Data : [object Object]","timestamp":"13:56:55"}
+{"level":"info","message":"RegistrationController.register called  :saif@gmail.com","timestamp":"13:56:55"}
+{"level":"info","message":"UserExists Method Called","timestamp":"13:56:55"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"13:56:55"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"13:56:55"}
+{"level":"info","message":"User Not Found with Email :saif@gmail.com","timestamp":"13:56:55"}
+{"level":"info","message":"User Exists Response : null","timestamp":"13:56:55"}
+{"level":"info","message":"Creation New User","timestamp":"13:56:55"}
+{"level":"verbose","message":"addShift-POST Route called","timestamp":"14:41:15"}
+{"level":"info","message":"in Routes /addShift - Req Data : [object Object]","timestamp":"14:41:16"}
+{"level":"verbose","message":"addShift-POST Route called","timestamp":"14:43:36"}
+{"level":"info","message":"in Routes /addShift - Req Data : [object Object]","timestamp":"14:43:36"}
+{"level":"verbose","message":"register-POST called ","timestamp":"14:47:48"}
+{"level":"info","message":"in routes /register - Req Data : [object Object]","timestamp":"14:47:48"}
+{"level":"info","message":"RegistrationController.register called  :saif@gmail.com","timestamp":"14:47:48"}
+{"level":"info","message":"UserExists Method Called","timestamp":"14:47:48"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"14:47:48"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"14:47:48"}
+{"level":"info","message":"User Not Found with Email :saif@gmail.com","timestamp":"14:47:48"}
+{"level":"info","message":"User Exists Response : null","timestamp":"14:47:48"}
+{"level":"info","message":"Creation New User","timestamp":"14:47:48"}
+{"level":"verbose","message":"register-POST called ","timestamp":"14:48:40"}
+{"level":"info","message":"in routes /register - Req Data : [object Object]","timestamp":"14:48:40"}
+{"level":"info","message":"RegistrationController.register called  :saif@gmail.com","timestamp":"14:48:40"}
+{"level":"info","message":"UserExists Method Called","timestamp":"14:48:40"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"14:48:40"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"14:48:40"}
+{"level":"info","message":"User Found with Email :saif@gmail.com","timestamp":"14:48:40"}
+{"level":"info","message":"User Exists Response : { _id: 5acc8844f86dfb2d58fde0b2,\n  updatedAt: 2018-04-10T09:47:49.398Z,\n  createdAt: 2018-04-10T09:47:48.751Z,\n  email: 'saif@gmail.com',\n  password: '$2a$10$8EsTb.bGhQQ6CCnvw.td8uHKEPhg0yrt.dSsdKv8L9.eWxA7jE7tq',\n  user_type: 'rider',\n  OS: 'android',\n  verified_user: true,\n  __v: 1,\n  deactivate_user: false,\n  tokens: \n   [ { access: 'auth',\n       token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWNjODg0NGY4NmRmYjJkNThmZGUwYjIiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIzMzUzNjY5fQ.uSRDfe6Oa0co9ohOag9yQhf0yo1Fs35LOHOZj9WSkao',\n       _id: 5acc8845f86dfb2d58fde0b4 } ],\n  profile_photo_url: null }","timestamp":"14:48:40"}
+{"level":"verbose","message":"register-POST called ","timestamp":"14:48:56"}
+{"level":"info","message":"in routes /register - Req Data : [object Object]","timestamp":"14:48:56"}
+{"level":"info","message":"RegistrationController.register called  :saif@gmail.com","timestamp":"14:48:56"}
+{"level":"info","message":"UserExists Method Called","timestamp":"14:48:56"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"14:48:56"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"14:48:56"}
+{"level":"info","message":"User Not Found with Email :saif@gmail.com","timestamp":"14:48:57"}
+{"level":"info","message":"User Exists Response : null","timestamp":"14:48:57"}
+{"level":"info","message":"Creation New User","timestamp":"14:48:57"}
+{"level":"verbose","message":"register-POST called ","timestamp":"14:50:17"}
+{"level":"info","message":"in routes /register - Req Data : [object Object]","timestamp":"14:50:17"}
+{"level":"info","message":"RegistrationController.register called  :saif@gmail.com","timestamp":"14:50:17"}
+{"level":"info","message":"UserExists Method Called","timestamp":"14:50:17"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"14:50:17"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"14:50:17"}
+{"level":"info","message":"User Not Found with Email :saif@gmail.com","timestamp":"14:50:17"}
+{"level":"info","message":"User Exists Response : null","timestamp":"14:50:17"}
+{"level":"info","message":"Creation New User","timestamp":"14:50:17"}
+{"level":"verbose","message":"register-POST called ","timestamp":"14:50:38"}
+{"level":"info","message":"in routes /register - Req Data : [object Object]","timestamp":"14:50:38"}
+{"level":"info","message":"RegistrationController.register called  :saif@gmail.com","timestamp":"14:50:38"}
+{"level":"info","message":"UserExists Method Called","timestamp":"14:50:38"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"14:50:38"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"14:50:38"}
+{"level":"info","message":"User Found with Email :saif@gmail.com","timestamp":"14:50:39"}
+{"level":"info","message":"User Exists Response : { _id: 5acc88d926de6f34a42941ee,\n  updatedAt: 2018-04-10T09:50:18.197Z,\n  createdAt: 2018-04-10T09:50:17.761Z,\n  email: 'saif@gmail.com',\n  password: '$2a$10$PxJMoC/EOtCdEAsj7z8eGO/hQZZwaib9DnD0OM5Y9gz6ndj4ng6S.',\n  user_type: 'rider',\n  OS: 'android',\n  verified_user: true,\n  __v: 1,\n  deactivate_user: false,\n  tokens: \n   [ { access: 'auth',\n       token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWNjODhkOTI2ZGU2ZjM0YTQyOTQxZWUiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIzMzUzODE4fQ._zzPSAOg_oEwA8Zgj7ADUR45ZJj8SCyF1vwfTNUXQjU',\n       _id: 5acc88da26de6f34a42941f0 } ],\n  profile_photo_url: null }","timestamp":"14:50:39"}
+{"level":"verbose","message":"register-POST called ","timestamp":"14:50:56"}
+{"level":"info","message":"in routes /register - Req Data : [object Object]","timestamp":"14:50:56"}
+{"level":"info","message":"RegistrationController.register called  :saif@gmail.com","timestamp":"14:50:56"}
+{"level":"info","message":"UserExists Method Called","timestamp":"14:50:56"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"14:50:56"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"14:50:56"}
+{"level":"info","message":"User Not Found with Email :saif@gmail.com","timestamp":"14:50:56"}
+{"level":"info","message":"User Exists Response : null","timestamp":"14:50:56"}
+{"level":"info","message":"Creation New User","timestamp":"14:50:56"}
+{"level":"verbose","message":"addShift-POST Route called","timestamp":"14:52:05"}
+{"level":"info","message":"in Routes /addShift - Req Data : [object Object]","timestamp":"14:52:05"}
+{"level":"verbose","message":"addShift-POST Route called","timestamp":"17:21:44"}
+{"level":"info","message":"in Routes /addShift - Req Data : [object Object]","timestamp":"17:21:45"}

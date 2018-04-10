@@ -1,5 +1,6 @@
 const _ = require('lodash');
 var regCtrl= require('../controller/RegistrationController.js');
+var shiftCtrl = require('../controller/ShiftsController');
 var bodyParser = require('body-parser');
 var User = require('../models/User.js');
 var db = require('../config/db');
@@ -12,6 +13,7 @@ var FormData = require('form-data');
 var http = require('http');
 var request=require("request");
 var fs = require('fs');
+var User = require('../models/User');
 
 
 
@@ -64,13 +66,13 @@ module.exports = function(app) {
 	
 	
 	app.get('/', function(req, res) {
-		res.end("Exaride-WebServices"); 
+		res.send("Exaride-WebServices"); 
 	});
 
 	app.post('/register',function(req,res){                         
 		
 		if(req.body === undefined||req.body === null) {
-		 res.end("Empty Body");  
+		 	res.send("Empty Body");  
 		 }
 			 
 		 logger.verbose('register-POST called '); 
@@ -84,7 +86,7 @@ module.exports = function(app) {
 	
 	app.post('/login', (req, res) => {
 		if(req.body === undefined||req.body === null) {
-			res.end("Empty Body");  
+				res.send("Empty Body");  
 			}
 				
 			logger.verbose('login-POST called ');	
@@ -95,6 +97,84 @@ module.exports = function(app) {
 			regCtrl.login(reqData,res);
 		
 	});
+
+	// Add location 
+	app.post('/addLocation', (req, res) => {
+		if (req.body === undefined || req.body === null) {
+			res.send("Empty body: ");
+		}
+
+		logger.verbose('addLocation-POST Route called');
+		var reqData = req.body;
+		logger.info("in Routes /addLocation - Req Data : " + reqData);
+		shiftCtrl.addLocation(reqData, res);
+
+	});
+
+	// Add route by starting point and ending point
+	app.post('/addRoute', (req, res) => {
+		if (req.body === undefined || req.body === null) {
+			res.send("Empty body: ");
+		}
+
+		logger.verbose('addRoute-POST Route called');
+		var reqData = req.body;
+		logger.info("in Routes /addRoute - Req Data : " + reqData);
+
+		shiftCtrl.addRoute(reqData, res);
+	});
+
+
+	app.post('/addShift', (req, res) => {
+		if (req.body === undefined || req.body === null) {
+			res.send("Empty body: ");
+		}
+
+		logger.verbose('addShift-POST Route called');
+		var reqData = req.body;
+		logger.info("in Routes /addShift - Req Data : " + reqData);
+
+		shiftCtrl.addShift(reqData, res);
+	});
+
+	app.get('/getAllShift', function (req, res) {
+		console.log("in routes get shifts");
+		shiftCtrl.findAllShift(req, res);
+	});
+
+	app.get('/shifts/:driverId', (req, res) => {
+		var driverId = req.params.driverId;
+		console.log("In routes get shify by userId")
+		shiftCtrl.getShiftByDriverId(driverId, res);
+	});
+
+	app.patch('/shifts/:userId', (req, res) => {
+		var id = req.params.userId;
+		const updateOps = {};
+		for (const ops of req.body) {
+			updateOps[ops.propName] = ops.value;
+		}
+
+		User.update({ _id: id }, { $set: updateOps }, (err, user) => {
+			if (err) {
+				res.status(400).send({
+					status: "failure",
+					message: err,
+					object: []
+				});
+			}
+			else {
+				res.jsonp({
+					status: "success",
+					message: "Update User by driver id",
+					// userName: shifts.userName,
+					object: user
+				});
+			}
+		})
+	});
+
+
 
 
 }
