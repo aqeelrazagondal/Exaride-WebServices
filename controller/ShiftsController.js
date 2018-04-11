@@ -6,6 +6,7 @@ var Rider = require('../models/Rider.js');
 var Location = require('../models/Location');
 var Routes = require('../models/Routes');
 var Shift = require('../models/Shift');
+var Location = require('../models/Location');
 
 var db = require('../config/db');
 var logger = require('../config/lib/logger.js');
@@ -201,14 +202,6 @@ exports.findAllShift = function (req, res) {
 
         Shift.find({}, function (err, shifts) {
             console.log("shifts " + shifts);
-            // User.findById({}, (err, driver) => {
-            //     if (err) {
-            //         res.send(err);
-            //     }
-            //     // res.json(drivers);
-            //     saveUser = driver.userName;
-            //     console.log("DRIVER USERNAME     ###########  " + driver.userName);
-            // });
 
             if (err) {
                 res.status(400).send({
@@ -256,11 +249,56 @@ exports.getShiftByDriverId = function (driverId, res){
                 object: shift
             });
         }
-    })
-        
+    });        
 }
 
-exports.updateByUserId = function(driverId, res) {
-    const updateOps = {};
+exports.getListOfLocations = function (req, res) {
+    var saveLocations;
+    var locationResponseObject;
 
+    try {
+        Location.find({}, function (err, locations) {
+            console.log("LOcations " + locations);
+
+            if (err) {
+                res.status(400).send({
+                    status: "failure",
+                    message: err,
+                    object: []
+                });
+            }
+
+            else {
+                res.jsonp({
+                    status: "success",
+                    message: "List Of locations",
+                    // userName: shifts.userName,
+                    object: locations
+                });
+            }
+        });
+    } catch (err) {
+        logger.info('An Exception Has occured in getUserLocation method' + err);
+    }
+}
+
+exports.getRoutesByRouteId = function (id, res) {
+
+    Routes.find({ _id: id }, (err, route) => {
+
+        if (err) {
+            res.status(400).send({
+                status: "failure",
+                message: err,
+                object: []
+            });
+        }
+        else {
+            res.jsonp({
+                status: "success",
+                message: "List Of Routes by route id",
+                object: route
+            });
+        }
+    })
 }

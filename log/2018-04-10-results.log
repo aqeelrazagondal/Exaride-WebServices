@@ -164,3 +164,6 @@
 {"level":"info","message":"in Routes /addShift - Req Data : [object Object]","timestamp":"14:52:05"}
 {"level":"verbose","message":"addShift-POST Route called","timestamp":"17:21:44"}
 {"level":"info","message":"in Routes /addShift - Req Data : [object Object]","timestamp":"17:21:45"}
+{"level":"verbose","message":"addLocation-POST Route called","timestamp":"20:54:05"}
+{"level":"info","message":"in Routes /addLocation - Req Data : [object Object]","timestamp":"20:54:05"}
+{"level":"info","message":"ShiftController. called  :","timestamp":"20:54:05"}

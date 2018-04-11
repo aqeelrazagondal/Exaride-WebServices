@@ -18,8 +18,6 @@ var User = require('../models/User');
 
 
 module.exports = function(app) {	
-	 
-	 
 	 //Enable All CORS Requests
 	app.use(cors());
 	app.use(function(req, res, next) {
@@ -49,7 +47,7 @@ module.exports = function(app) {
 			User.findByToken(token).then((user) => {
 				if (!user) {
 					logger.info("User Not Found with token :  "+ token);
-					return Promise.reject();
+					return Promise.reject("");
 				}
 			
 				req.user = user;
@@ -111,6 +109,12 @@ module.exports = function(app) {
 
 	});
 
+	// get locations
+	app.get('/getLocationsList', (req, res) => {
+		console.log("In routes get shify by userId")
+		shiftCtrl.getListOfLocations(req, res);
+	});
+
 	// Add route by starting point and ending point
 	app.post('/addRoute', (req, res) => {
 		if (req.body === undefined || req.body === null) {
@@ -124,6 +128,11 @@ module.exports = function(app) {
 		shiftCtrl.addRoute(reqData, res);
 	});
 
+	app.get('/getRoute/:id', (req, res) => {
+		var id = req.params.id;
+		console.log("In routes get Route by routeId")
+		shiftCtrl.getRoutesByRouteId(id, res);
+	});
 
 	app.post('/addShift', (req, res) => {
 		if (req.body === undefined || req.body === null) {
@@ -137,7 +146,7 @@ module.exports = function(app) {
 		shiftCtrl.addShift(reqData, res);
 	});
 
-	app.get('/getAllShift', function (req, res) {
+	app.get('/getShifts', function (req, res) {
 		console.log("in routes get shifts");
 		shiftCtrl.findAllShift(req, res);
 	});
@@ -173,8 +182,4 @@ module.exports = function(app) {
 			}
 		})
 	});
-
-
-
-
 }
